@@ -6,6 +6,7 @@ from datetime import timedelta
 import math
 import sys
 
+#Replace your_username and your_password with your MySQL Server username and password respecetively
 con=ms.connect(user="your_username",passwd="your_password",host="localhost",database="hospital")
 cur=con.cursor()
 
