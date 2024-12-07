@@ -6,7 +6,7 @@ from datetime import timedelta
 import math
 import sys
 
-con=ms.connect(user="your_username",passwd="your_password",host="localhost",database="your_database_name")
+con=ms.connect(user="your_username",passwd="your_password",host="localhost",database="hospital")
 cur=con.cursor()
 
 def view_patients():
