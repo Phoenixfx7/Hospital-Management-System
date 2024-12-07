@@ -85,3 +85,4 @@ con=ms.connect(user="your_username",passwd="your_password",host="localhost",data
 ## Contribution
 
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+Please star the repository if you found it helpful.
