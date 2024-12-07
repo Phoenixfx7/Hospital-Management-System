@@ -52,6 +52,36 @@ A comprehensive Hospital Management System to manage patient records, doctor sch
    - `datetime`
 
 Install dependencies using:
-```bash
+```
 pip install mysql-connector-python tabulate
+```
 
+## HOW TO GET IT WORKING
+1. Create a database named 'hospital' in you MySQL Server by using this command in the MySQL Command Line:
+   ```
+   create database hsopital
+   ```
+2. Download the [hospital.sql](https://github.com/Phoenixfx7/Hospital-Management-System/blob/main/hospital.sql) and [hospital.py](https://github.com/Phoenixfx7/Hospital-Management-System/blob/main/hospital.py) files.
+
+3. Copy the database to your MySQL server by running this in command prompt:
+   ```
+   mysql -u root -p hospital < hospital.sql
+   ```
+   **Note:**
+   - You'll have to replace root with your MySQL username. (It is root by default if you havent changed it)
+   - ```hospital.sql``` must be present in the same directory where command prompt is running
+   - MySQL needs to be added to Path (environment variables).
+   - You'll be asked for your MySQL password after you run the command. Enter it and its done!
+
+
+
+4. You'll need to replace ``` your_username ``` and ``` your_password ``` with your MySQL username and password respectively in the ``` hospital.py ``` file in the statement (Line 10):
+```
+con=ms.connect(user="your_username",passwd="your_password",host="localhost",database="hospital")
+```
+
+5. Run ```hsopital.py```!
+---
+## Contribution
+
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
