@@ -59,7 +59,7 @@ pip install mysql-connector-python tabulate
 ## HOW TO GET IT WORKING
 1. Create a database named 'hospital' in you MySQL Server by using this command in the MySQL Command Line:
    ```
-   create database hsopital
+   create database hsopital;
    ```
 2. Download the [hospital.sql](https://github.com/Phoenixfx7/Hospital-Management-System/blob/main/hospital.sql) and [hospital.py](https://github.com/Phoenixfx7/Hospital-Management-System/blob/main/hospital.py) files.
 
